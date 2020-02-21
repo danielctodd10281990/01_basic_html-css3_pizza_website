@@ -1,2 +1,2 @@
-# 01_basic_html-css3_pizza_website
-A 1 page pizza website.
+# A basic landing page for a fake pziza company.
+### This website only uses HTML/CSS3 without the use of grid or flexbox. Takes advantage of display and text alignment properties.
