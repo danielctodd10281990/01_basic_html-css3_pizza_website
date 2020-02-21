@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Tajawal', sans-serif;
+}
+
+.main-header {
+  width: 100%;
+  background: #efee1c;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.logo a {
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: bold;
+  color: #b47119;
+  padding-left: 10px;
+}
+
+.logo a:visited {
+  color: #b47119;
+}
+
+.nav-bar {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  width: calc(100% - 120px);
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-item a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px 55px;
+  border-left: 2px solid aliceblue;
+  color: #156d0b;
+}
+
+.nav-bar ul li:last-of-type {
+  border-right: 2px solid aliceblue;
+}
+
+.nav-item a:visited {
+  color: color: #156d0b;
+}
+
+.nav-item a:hover,
+.nav-item a:active {
+  color: #11490b;
+  background: #dada1a;
+}
+
+section {
+  background: url("pizza-bg.jpeg") center center/cover;
+  height: 500px;
+}
+
+section h1 {
+  font-size: 55px;
+  text-align: center;
+  color: #156d0b
+}
+
+section p {
+  font-size: 23px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(219, 203, 203);
+}
+
+footer {
+  text-align: center;
+  background: #424242;
+  height: 80px;
+  font-size: 30px;
+}
+
+footer p {
+  padding-top: 25px;
+}
